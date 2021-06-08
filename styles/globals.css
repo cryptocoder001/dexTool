@@ -1,0 +1,340 @@
+html,
+body {
+    padding: 0;
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+* {
+    box-sizing: border-box;
+  }
+
+  /* .tsparticles-canvas-el{
+      height: 100vh!important;
+  } */
+
+  .navGrid{
+      margin-top: 30px;
+      margin-bottom: 50px;
+  }
+
+.navGridTop{
+    margin-left: 10%;
+    width: 80%!important;
+}
+.diceGrid{
+    margin-left: 10%;
+    width: 80%!important;
+}
+
+/* font  */
+
+.x-font1{
+    color: black;
+    font-size: 20px;
+    font-family: initial;
+}
+.x-font2{
+    color: #3b1972;
+    font-size: 20px;
+    font-family: initial;
+}
+.x-font3{
+    font-size: 30px;
+    font-weight: 600;
+    color: black;
+}
+.x-font4{
+    font-size: 20px;
+    font-weight: 600;
+    color: black;
+}
+.x-font5{
+    color: #d5cde3;
+    font-size: 15px;
+    font-weight: 500;
+    font-family: initial;
+    color: black
+}
+.x-font6{
+    font-size: 15px;
+    font-weight: 500;
+    font-family: initial;
+    color: #300875
+}
+.x-font7{
+    font-size: 15px;
+    font-weight: 500;
+    font-family: initial;
+    color: #b3b3b3;
+}
+.x-font2-static{
+    color: white;
+    font-size: 15px;
+    font-weight: 500;
+    font-family: initial;
+}
+.x-font3-static{
+    color: white;
+    font-size: 22px;
+    font-weight: 600;
+    font-family: initial;
+}
+.x-font4-static{
+    color: #d5cde3;
+    font-size: 15px;
+    font-weight: 500;
+    font-family: initial;
+}
+.x-font5-static{
+    color: #0ed817;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: initial;
+}
+.x-font6-static{
+    color: #d6273d;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: initial;
+}
+.x-font7-static{
+    color: #17c370;
+    font-size: 35px;
+    font-weight: 600;
+    font-family: initial;
+}
+.x-font8-static{
+    color: #f3216d;
+    font-size: 35px;
+    font-weight: 600;
+    font-family: initial;
+}
+.x-font9-static{
+    color: #0ed817;
+    font-size: 25px;
+    font-weight: 600;
+    font-family: initial;
+}
+.x-button1{
+    width: 100%;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    color: white;
+    border-radius: 5px;
+    height: 40px;
+    margin-right: 20px
+}
+.x-button2{
+    width: 100%;
+    font-size: 20px;
+    font-family: initial;
+    border: none;
+    outline: none;
+    color: white;
+    border-radius: 10px;
+    padding: 2%;
+}
+.x-button3{
+    width: 100px;
+    font-size: 20px;
+    font-family: initial;
+    border: none;
+    outline: none;
+    color: white;
+    border-radius: 5px;
+    padding: 2%;
+}
+.x-button4{
+    width: 200px;
+    font-size: 20px;
+    font-family: initial;
+    border: none;
+    outline: none;
+    color: white;
+    border-radius: 5px;
+    padding: 2%;
+}
+.x-light-item{
+    color: white;
+    font-size: 20px;
+    background-color: #390e74;
+    padding: 1%;
+    width: 100%;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    height: 40px;
+    text-align: center;
+    cursor: pointer;
+}
+.x-dark-item{
+    color: white;
+    font-size: 20px;
+    background-color: #390e74;
+    padding: 1%;
+    width: 100%;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    height: 40px;
+    text-align: center;
+    cursor: pointer;
+}
+.x-mode-span{
+    padding-left:10px;
+    padding-right:10px;
+    padding-bottom: 5px;
+    border-radius: 5px;
+}
+.x-nav-list-item{
+    font-family: initial;
+    font-size: 20px;
+    font-weight: 500;
+    margin-left: 50px;
+    background-color: transparent;
+    border: none;
+    /* border-bottom-style: solid;
+    border-bottom-width: 3px; */
+}
+.x-nav-list-token{
+    font-family: initial;
+    font-size: 20px;
+    font-weight: 500;
+    margin-left: 50px;
+    border-bottom-style: solid;
+    border-bottom-width: 3px;
+    color: yellow!important;
+}
+.x-circleToken{
+    border-radius: 50%;
+    padding: 10%;
+    box-shadow: 0px 0px 21px 11px #4a18a2, #4a18a2 0px 0px 15px inset;
+}
+.x-home-top-info{
+    text-align: center;
+    padding-top: 65px;
+}
+.x-home-top-card-title{
+    background-color: #3b0d8c;
+    padding: 2%; 
+    font-size: 25px;
+    font-weight: 600;
+    color: white;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-top-right-radius: 15px;
+    margin-right: 10px;
+}
+.x-home-top-table-title{
+    background-color: #3b0d8c;
+    padding: 1%; 
+    font-size: 25px;
+    font-weight: 600;
+    color: white;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-top-right-radius: 15px;
+    margin-right: 10px;
+}
+.x-home-card1{
+    background-color: white;
+    width: 100%;
+    padding: 4%;
+    border-radius: 10px;
+}
+.x-home-card1-search{
+    background-color: #d8effa;
+    border: 2px solid #6527d0;
+    padding: 1%;
+    color: white;
+    border-radius: 5px;
+}
+.x-home-card1-search-input{
+    width: calc(100% - 30px);
+    background-color: #d8effa;
+    border: none;
+    outline: none;
+    color: black;
+    font-family: initial;
+    font-size: 20px;
+}
+.x-cardItem{
+    border-radius: 10px;
+    padding: 10%;
+    text-align: center;
+    color: white;
+}
+.x-shadow-cardItem{
+    cursor: pointer;
+    border-radius: 10px;
+    padding: 10%;
+    text-align: center;
+    color: white;
+    box-shadow: 0px 0px 21px 11px #eaeaea, #eaeaea 0px 0px 15px inset;
+}
+.x-shadow-cardItem:hover{
+    background-color: #add8e6;
+}
+.x-home-table1{
+    background-color: white;
+    padding: 1%;
+    border-radius: 10px;
+}
+.x-home-table-click-img{
+    cursor: pointer;
+}
+.x-multi-top{
+    border: 2px solid #6527d0;
+    border-radius: 5px;
+    padding: 1%;
+}
+.x-multi-center{
+    text-align: center;
+    margin-top: 170px;
+}
+.x-pool-table{
+    background-color: white;
+    padding: 2%;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+.x-pool-table-title{
+    background-color: #290664;
+    padding: 1%;
+    border-radius: 5px;
+}
+.MuiTableCell-head{
+    color: white!important;
+    font-family: initial!important;
+}
+.x-pair-card1{
+   padding: 4%; 
+   background-color: white;
+   border-radius: 10px;
+}
+.x-pair-card-slider{
+    border: 1px solid #6527d0;
+    border-radius: 5px;
+    padding: 1%;
+}
+.MuiSlider-root{
+    padding: 0px!important;
+}
+.MuiSlider-thumb{
+    display: none!important;
+}
+.x-config-card{
+    border-radius: 10px;
+    padding: 7%;
+    background-color: white;
+    margin-top: 100px;
+}
+
+.TVChartContainer {
+	height:100%;
+}

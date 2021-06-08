@@ -1,0 +1,53 @@
+.dark #__next #backSection{
+    background-image: url('/img/background.png')!important;
+}
+.dark .x-font1{
+    color: white!important
+}
+.dark .x-font3{
+    color: white!important
+}
+.dark .x-font4{
+    color: white!important
+}
+.dark .x-font6{
+    color: white!important
+}
+.dark .x-home-card1{
+    background-color: #300875;
+}
+.dark .x-home-card1-search{
+    background-color: #300875;
+}
+.dark .x-home-card1-search-input{
+    background-color: #300875;
+    color: white;
+}
+.dark .x-home-table1{
+    background-color: #300875;
+}
+.dark .x-pool-table{
+    background-color: #300875;
+}
+.dark .MuiTableBody-root{
+    background-color: #300875;
+}
+.dark .MuiTableCell-body{
+    color: white!important;
+}
+.dark .MuiTableFooter-root{
+    background-color: #300875;
+}
+.dark .x-pair-card1{
+    background-color: #300875;
+}
+.dark .x-shadow-cardItem{
+    background-color: #4610a4;
+    box-shadow: none;
+}
+.dark .x-config-card{
+    background-color: #300875;
+}
+.dark .x-shadow-cardItem:hover{
+    background-color: #add8e6;
+}
